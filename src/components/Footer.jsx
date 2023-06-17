@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between border-t border-[#ADFFAA]/10 pt-6">
+        <div className="lg:flex justify-between border-t border-[#ADFFAA]/10 pt-6">
           <div className="flex items-center gap-2">
             <Image src="/copyright.svg" alt="" height={24} width={24} />
             <p className="font-Lexend text-sm text-white/50">
@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
 
           </div>
-            <div>
+            <div className="pt-3">
               <ul className="flex gap-10">
                 <li className="font-Lexend text-sm text-white/50">Terms of Service</li>
                 <li className="font-Lexend text-sm text-white/50">Privacy & Policy</li>

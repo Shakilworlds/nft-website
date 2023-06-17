@@ -9,10 +9,10 @@ const NFT = () => {
 
       {/* Title Text */}
       <div>
-        <h2 className="text-center font-Allenoire text-5xl">
+        <h2 className="text-center font-Allenoire text-xl lg:text-5xl">
           Top NFTs Collection This Week
         </h2>
-        <p className="mx-auto flex justify-center text-center font-Lexend text-base font-light lg:max-w-[557px] pt-4 text-white/40">
+        <p className="mx-auto flex justify-center text-center font-Lexend text-base font-light max-w-[341px] lg:max-w-[557px] pt-4 text-white/40">
           Consectetur adipiscing elit. A leo, justo, sit vitae, vel tristique.
           Eu lacus congue risus pulvinar in ut aliquet.
         </p>

@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <section className="container rounded-lg border border-[#57FD8E]/20 bg-[#031B29] px-[76px] py-16">
+    <section className="container rounded-lg border border-[#57FD8E]/20 bg-[#031B29] px-6 lg:px-[76px] py-6 lg:py-16">
       {/* Services */}
-      <div className="flex gap-[60px]">
+      <div className="gap-[60px] grid grid-cols-1 lg:grid-cols-3">
         {Feature.map((Feature, i) => {
           return (
             <div key={i}>
